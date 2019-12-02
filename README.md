@@ -7,6 +7,9 @@ El código es solamente orientativo, ya que no incluye los archivos necesarios (
 
 # Funcionalidad
   1.- Crear, para crear los ficheros .qcow2 de diferencias y los de especificación en XML de cada MV, así como los bridges virtuales que soportan las LAN del escenario
+  
   2.- Arrancar, para arrancar las máquinas virtuales y mostrar su consola.
+  
   3.- Parar, para parar las máquinas virtuales
+  
   4.- Destruir, para liberar el escenario, borrando todos los ficheros creados.
