@@ -435,7 +435,7 @@ def arrancar(maquina):
 
 			print("Maquina S3 arrancada.")
 			
-		if(maquina == "s1"):
+		if(maquina == "s4"):
 
 			# Proceso de arranque con s4
 			os.system("sudo virsh define s4.xml")
@@ -445,7 +445,7 @@ def arrancar(maquina):
 			print("Maquina S4 arrancada.")
 
 			
-		if(maquina == "s1"):
+		if(maquina == "s5"):
 
 			# Proceso de arranque con s5
 			os.system("sudo virsh define s5.xml")
